@@ -23,11 +23,6 @@
     <string name="error_please_check_internet">Please check your internet connection</string>
     <string name="error_request_timed_out">Request timed out</string>
     <string name="error_something_went_wrong">Something went wrong</string>
-    <string name="error_empty_password">Password cannot be empty</string>
-    <string name="error_empty_password_confirmation">Password confirmation cannot be empty</string>
-    <string name="error_empty_username">Username/Email cannot be empty</string>
-    <string name="error_empty_email">Email cannot be empty</string>
-    <string name="error_empty_name">Name cannot be empty</string>
     <string name="error_empty_field">%1$s cannot be empty</string>
     <string name="navigation_title_home">Home</string>
     <string name="navigation_title_profile">Profile</string>
@@ -217,7 +212,7 @@ We engage our community by contributing to open source, collaborating with the g
     <string name="bug">Bug</string>
     <string name="input"> Please fill in the input fields and/or assign a rating</string>
     <string name="feedback_thank">Thank you for your feedback!</string>
-    <string name="regex_name">^[a-zA-Zs-]+$</string>
+    <string name="regex_name">^[a-zA-Z\\s-]+$</string>
     <string name="regex_username">^[a-zA-Z0-9_]+$</string>
     <string name="regex_email">^[a-zA-Z0-9_.+–]+@[a-zA-Z0-9–]+\\.[a-zA-Z0-9-.]+$</string>
     <string name="regex_password">^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[-@%\\[\\}+\'!/#$^?:;,\\(\"\\)~\`.&amp;*=\\{>\\]_]).{8,64}$</string>
